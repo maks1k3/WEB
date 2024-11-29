@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .2s;
+    font-family: "Roboto", sans-serif;
+}
+header{
+    background-color: #04436e;
+    height: 4rem;
+    padding: 1rem;
+  
+    
+
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    
+}
+header p{
+    color: white;
+}
+header .apli{
+    display: flex;
+    flex-direction: row;
+}
+header .aplis1{
+  height: 2rem;
+  width: 2rem;
+  background-color: #04436e;
+  border-radius: 50%;
+  border: .1rem solid white;
+  
+}
+header .aplis2{
+    height: 2rem;
+    width: 2rem;
+    background-color: purple;
+    border-radius: 50%;
+    border: .1rem solid white;
+}
+header .aplis3{
+height: 2rem;
+width: 2rem;
+background-color: black;
+border-radius: 50%;
+border: .1rem solid white;
+
+}
+header .aplis4{
+height: 2rem;
+width: 2rem;
+background-color: gold;
+border-radius: 50%;
+border: .1rem solid white;
+}
+
+body{
+   background-image: url(images/bg.png);
+   
+   
+}
+section .container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+section img{
+    height: 5rem;
+}
+section .nosaukums h3{
+    color: #04436e;
+    font-size: 2.1rem;
+    
+}
+.container{
+    max-width: 75rem;
+    margin: 0 auto;
+    
+    
+}
+#bgimg{
+   
+    background-color: rgba(223,223,223,.2);
+    height: 25rem;
+    overflow: hidden;
+}
+#bgimg img{
+    max-width: 100%;         
+    width: auto;             
+    height: 100%;
+    object-fit: cover;
+
+}
+
+ .text h3{
+    color: #04436e;
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem 0;
+}
+.text p{
+    padding: 0.8rem 0rem;
+    text-align:center;
+    line-height: 2.5rem;
+    text-indent: 2rem;
+    color: grey;
+}
+.pakalpojumi {
+    padding-top: 1rem;
+    text-align: center; 
+}
+
+.virsraksts {
+    padding: 2rem;
+    font-size: 2.1rem;
+    text-align: center; 
+    color: #04436e;
+}
+span{
+    color: white;
+    background-color: #04436e;
+    border-radius: 0.5rem ;
+    padding: 0 0.6rem;
+}
+#pakalpojumi .servisi{
+    padding-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    
+    
+}
+.box{
+    box-sizing: border-box;
+    width: 48%;
+    background-color: #dfdfdf;
+    padding: 1rem;
+    border-radius: .9rem;
+    display: flex;
+
+    
+}
+.box img{
+    
+    height: 6rem;
+    margin-right: 1rem;
+}
+.box p{
+    color: grey;
+    margin-top: 1rem;
+}
+.box h4{
+    color: #04436e;
+}
+
+#atsauksmes .ats{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+#atsauksmes .box_a{
+width: 32%;
+box-sizing: border-box;
+background-color: #dfdfdf;
+padding: 1rem;
+text-align: center;
+color: grey;
+}
+#atsauksmes img{
+margin-top: -3.5rem;
+
+}
+.box_a h4{
+    color: #04436e;
+    padding: .5rem 0;
+}
+.box_a{
+    padding-top: 3rem;
+
+}
+.box_a p{
+    margin: 1rem 0 2rem;
+    
+    
+}
+.box_a span{
+    background-color:gray;
+    padding: .5rem 2rem;
+    margin-top: 2rem;
+}
+#atlaide{
+    background-image: url(images/bg2.png);
+    height: 20rem;
+    background-color: rgba(31,101,149,255);
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.nos{
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+}
+.tekst{
+    color: white;
+}
+.input{
+  gap: 2rem;
+  padding-top: 2rem;
+  text-align: center;
+
+}
+footer{
+    height: 6rem;
+    background-color: rgba(4,67,110,255);
+
+}
+.copyright{
+    display: flex;
+   justify-content: center;
+   align-content: center;
+    
+}
+footer p{
+    color: white;
+    padding-top: 3rem;
+}
+.input input{
+    padding: 1rem;
+    border-radius: .5rem;
+    color: #04436e;
+}
+
+.box_a span:hover{
+    background-color: #04436e;
+    transition-delay: 0.2s;
+}
+@media(max-width:781px){
+    #bgimg {
+        background-color: rgba(223,223,223,255);
+        height: 17rem;
+        overflow: hidden;
+    }
+    .text p {
+        padding: .8rem 5.rem;
+        text-align: center;
+        line-height: 2rem;
+       
+    }
+
+}
+@media(max-width:645px){
+    section .nosaukums h3 {
+        
+        font-size: 1.5rem;
+    }
+    section img {
+        height: 4rem;
+    }
+
+    .box_a span{
+       
+        padding: .5rem 1rem;
+        margin-top: 1rem;
+    }
+}
+@media(max-width:537px){
+    #bgimg {
+        background-color: rgba(223,223,223,255);
+        height: 13rem;
+        overflow: hidden;
+    }
+    
+    #atsauksmes .ats{
+        padding-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3rem;
+        
+    }
+    #atsauksmes .box_a{
+        width: 100%;
+    }
+    .input{
+        display: flex;
+        flex-direction: column;
+    }
+    .input input{
+        padding: 5.rem;
+        width: 50%;
+        margin: 0 5rem;
+    }
+    .tekst{
+        padding: 0 .5rem;
+    }
+    .text h3{
+        font-size: 1.6rem;
+    }
+    
+}
+@media(max-width:477px){
+    section .nosaukums h3 {
+        
+        font-size: 1.5rem;
+        text-align: right;
+    }
+
+}
+@media(max-width:413px){
+    #bgimg {
+        background-color: rgba(223,223,223,255);
+        height: 10rem;
+        overflow: hidden;
+    }
+    section img {
+        height: 3rem;
+    }
+    
+    h2{
+        font-size: 1.3rem;
+    }
+
+    
+}
+@media(max-width:816px){
+    .box{
+        width: 100%;
+        margin: 0 .2rem;
+    }
+}
+.to-top{
+    position: fixed;
+    right: 2rem;
+    bottom: 3rem;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    cursor: pointer;
+    padding: .8rem 1rem;
+    color: #008ffc;
+    background-color: rgb(119, 255, 0);
+    border-radius: .4rem;
+}
+.to-top:hover{
+    background-color: red;
+}
+
